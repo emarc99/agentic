@@ -39,7 +39,7 @@ const AIChatbot: React.FC = () => {
       {isOpen && (
         <div className="fixed bottom-4 right-4 w-80 bg-white rounded-lg shadow-xl overflow-hidden">
           <div className="bg-purple-600 text-white p-4 flex justify-between items-center">
-            <h3 className="font-bold">AI Book Recommender</h3>
+            <h3 className="font-bold">NeuraLecto AI</h3>
             <button onClick={toggleChatbot} className="text-white hover:text-purple-200">
               <FaTimes />
             </button>
@@ -58,7 +58,7 @@ const AIChatbot: React.FC = () => {
               type="text"
               value={input}
               onChange={(e) => setInput(e.target.value)}
-              placeholder="Ask for a book recommendation..."
+              placeholder="Ask for a book, comic, or manga recommendation..."
               className="w-full p-2 border border-gray-300 rounded"
             />
           </form>

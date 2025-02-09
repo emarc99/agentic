@@ -2,7 +2,7 @@ import type React from "react"
 import Header from "./components/Header"
 import Hero from "./components/Hero"
 import HowItWorks from "./components/HowItWorks"
-import FeaturedBooks from "./components/FeaturedBooks"
+import FeaturedContent from "./components/FeaturedContent"
 import JoinCommunity from "./components/JoinCommunity"
 import Footer from "./components/Footer"
 import AIChatbot from "./components/AIChatbot"
@@ -14,7 +14,7 @@ const App: React.FC = () => {
       <main>
         <Hero />
         <HowItWorks />
-        <FeaturedBooks />
+        <FeaturedContent />
         <JoinCommunity />
       </main>
       <Footer />
@@ -24,4 +24,3 @@ const App: React.FC = () => {
 }
 
 export default App
-

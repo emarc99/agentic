@@ -10,35 +10,42 @@ const FeaturedContent: React.FC = () => {
       title: "The AI Revolution",
       author: "John Doe",
       type: "Book",
-      image: "/placeholder.svg?height=300&width=200",
+      image: "/images/superman.jpg?height=300&width=200",
     },
     {
       id: 2,
       title: "Blockchain Heroes",
       author: "Jane Smith",
       type: "Comic",
-      image: "/placeholder.svg?height=300&width=200",
+      image: "/images/comics.jpeg?height=300&width=200",
     },
     {
       id: 3,
       title: "Crypto Economics",
       author: "Alice Johnson",
       type: "Book",
-      image: "/placeholder.svg?height=300&width=200",
+      image: "/images/crypto-eco.jpg?height=300&width=200",
     },
     {
       id: 4,
       title: "NFT Ninjas",
       author: "Bob Williams",
       type: "Manga",
-      image: "/placeholder.svg?height=300&width=200",
+      image: "/images/samurai-x.jpg?height=300&width=200",
     },
     {
       id: 5,
       title: "Decentralized Dreams",
       author: "Charlie Brown",
       type: "Literature",
-      image: "/placeholder.svg?height=300&width=200",
+      image: "/images/dreams.jpg?height=300&width=200",
+    },
+    {
+      id: 6,
+      title: "The Shounen Revolution",
+      author: "Sensei",
+      type: "Book",
+      image: "/images/MangaTokyo.jpg?height=300&width=200",
     },
   ]
 
@@ -65,7 +72,7 @@ const FeaturedContent: React.FC = () => {
   }
 
   return (
-    <section id="featured-content" className="py-20">
+    <section id="featured-books" className="py-20">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-12">Featured Content</h2>
         <Slider {...settings}>

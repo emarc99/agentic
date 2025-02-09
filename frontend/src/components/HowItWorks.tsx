@@ -3,10 +3,10 @@ import { FaSearch, FaShoppingCart, FaBook, FaVoteYea } from "react-icons/fa"
 
 const HowItWorks: React.FC = () => {
   const steps = [
-    { icon: <FaSearch />, text: "Browse and get AI-recommended books." },
-    { icon: <FaShoppingCart />, text: "Purchase books using crypto." },
-    { icon: <FaBook />, text: "Own them as NFTs & access exclusive content." },
-    { icon: <FaVoteYea />, text: "Vote for books to boost their ranking." },
+    { icon: <FaSearch />, text: "Get AI recommendations for books, comics, manga, and more." },
+    { icon: <FaShoppingCart />, text: "Purchase your favorite titles using crypto." },
+    { icon: <FaBook />, text: "Own them as NFTs & access exclusive digital content." },
+    { icon: <FaVoteYea />, text: "Vote to boost rankings across various categories." },
   ]
 
   return (
